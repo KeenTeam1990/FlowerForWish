@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3a76c84a-951f-0be8-f4d1-ce57b7db7bff",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3a76c84a-951f-0be8-f4d1-ce57b7db7bff" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3a76c84a-951f-0be8-f4d1-ce57b7db7bff" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5F3F4ABA-F210-4A87-9AA9-F8CC43481868",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3a76c84a-951f-0be8-f4d1-ce57b7db7bff" : "FlowerForWish.git\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FlowerForWish",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/FlowerForWish\/FlowerForWish.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liwang110110\/FlowerForWish.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3a76c84a-951f-0be8-f4d1-ce57b7db7bff"
+    }
+  ]
+}
