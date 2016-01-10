@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68D1C4FB1C426AD400B3971D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D1C4FA1C426AD400B3971D /* RootViewController.m */; };
 		68DC7A981C40BD2E00FEE2DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DC7A971C40BD2E00FEE2DD /* main.m */; };
 		68DC7A9B1C40BD2E00FEE2DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DC7A9A1C40BD2E00FEE2DD /* AppDelegate.m */; };
 		68DC7A9E1C40BD2E00FEE2DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DC7A9D1C40BD2E00FEE2DD /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68D1C4F91C426AD400B3971D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		68D1C4FA1C426AD400B3971D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		68DC7A931C40BD2E00FEE2DD /* FlowerForWish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerForWish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DC7A971C40BD2E00FEE2DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68DC7A991C40BD2E00FEE2DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 			children = (
 				68DC7A991C40BD2E00FEE2DD /* AppDelegate.h */,
 				68DC7A9A1C40BD2E00FEE2DD /* AppDelegate.m */,
+				68D1C4F91C426AD400B3971D /* RootViewController.h */,
+				68D1C4FA1C426AD400B3971D /* RootViewController.m */,
 				68DC7A9C1C40BD2E00FEE2DD /* ViewController.h */,
 				68DC7A9D1C40BD2E00FEE2DD /* ViewController.m */,
 				68DC7A9F1C40BD2E00FEE2DD /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				68DC7A9E1C40BD2E00FEE2DD /* ViewController.m in Sources */,
 				68DC7A9B1C40BD2E00FEE2DD /* AppDelegate.m in Sources */,
+				68D1C4FB1C426AD400B3971D /* RootViewController.m in Sources */,
 				68DC7A981C40BD2E00FEE2DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				68DC7AC21C40BD2E00FEE2DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68DC7AC31C40BD2E00FEE2DD /* Build configuration list for PBXNativeTarget "FlowerForWishTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				68DC7AC51C40BD2E00FEE2DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68DC7AC61C40BD2E00FEE2DD /* Build configuration list for PBXNativeTarget "FlowerForWishUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				68DC7AC81C40BD2E00FEE2DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
