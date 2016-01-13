@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LandingpageViewController.h"
+#import "landingpageViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
     //设置NavigationBar背景颜色
     //[[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    LandingpageViewController *login=[[LandingpageViewController alloc]init];
+    landingpageViewController *login=[[landingpageViewController alloc]init];
     
     self.window.rootViewController=login;
     [self.window makeKeyAndVisible];

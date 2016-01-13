@@ -15,7 +15,6 @@
 		68DC7AA61C40BD2E00FEE2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DC7AA41C40BD2E00FEE2DD /* LaunchScreen.storyboard */; };
 		68DC7AB11C40BD2E00FEE2DD /* FlowerForWishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DC7AB01C40BD2E00FEE2DD /* FlowerForWishTests.m */; };
 		68DC7ABC1C40BD2E00FEE2DD /* FlowerForWishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DC7ABB1C40BD2E00FEE2DD /* FlowerForWishUITests.m */; };
-		BF41A5171C464573003B18F2 /* LandingpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41A5161C464573003B18F2 /* LandingpageViewController.m */; };
 		BF41A51C1C464683003B18F2 /* goback_back_orange_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41A51B1C464683003B18F2 /* goback_back_orange_on@2x.png */; };
 		BF41A5201C464692003B18F2 /* ic_landing_microblog.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41A51D1C464692003B18F2 /* ic_landing_microblog.png */; };
 		BF41A5211C464692003B18F2 /* ic_landing_microblog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41A51E1C464692003B18F2 /* ic_landing_microblog@2x.png */; };
@@ -32,6 +31,7 @@
 		BF41A5381C4647A1003B18F2 /* ic_landing_wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41A5351C4647A1003B18F2 /* ic_landing_wechat.png */; };
 		BF41A5391C4647A1003B18F2 /* ic_landing_wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41A5361C4647A1003B18F2 /* ic_landing_wechat@2x.png */; };
 		BF41A53A1C4647A1003B18F2 /* ic_landing_wechat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41A5371C4647A1003B18F2 /* ic_landing_wechat@3x.png */; };
+		BF41A5401C4653FB003B18F2 /* landingpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41A53F1C4653FB003B18F2 /* landingpageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +68,6 @@
 		68DC7AB71C40BD2E00FEE2DD /* FlowerForWishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerForWishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DC7ABB1C40BD2E00FEE2DD /* FlowerForWishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowerForWishUITests.m; sourceTree = "<group>"; };
 		68DC7ABD1C40BD2E00FEE2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF41A5151C464573003B18F2 /* LandingpageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingpageViewController.h; sourceTree = "<group>"; };
-		BF41A5161C464573003B18F2 /* LandingpageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingpageViewController.m; sourceTree = "<group>"; };
 		BF41A51B1C464683003B18F2 /* goback_back_orange_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goback_back_orange_on@2x.png"; path = "Images.xcassets/goback_back_orange_on.imageset/goback_back_orange_on@2x.png"; sourceTree = "<group>"; };
 		BF41A51D1C464692003B18F2 /* ic_landing_microblog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_landing_microblog.png; path = Images.xcassets/ic_landing_microblog.imageset/ic_landing_microblog.png; sourceTree = "<group>"; };
 		BF41A51E1C464692003B18F2 /* ic_landing_microblog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_landing_microblog@2x.png"; path = "Images.xcassets/ic_landing_microblog.imageset/ic_landing_microblog@2x.png"; sourceTree = "<group>"; };
@@ -86,6 +84,8 @@
 		BF41A5351C4647A1003B18F2 /* ic_landing_wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_landing_wechat.png; sourceTree = "<group>"; };
 		BF41A5361C4647A1003B18F2 /* ic_landing_wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_landing_wechat@2x.png"; sourceTree = "<group>"; };
 		BF41A5371C4647A1003B18F2 /* ic_landing_wechat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_landing_wechat@3x.png"; sourceTree = "<group>"; };
+		BF41A53E1C4653FB003B18F2 /* landingpageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = landingpageViewController.h; sourceTree = "<group>"; };
+		BF41A53F1C4653FB003B18F2 /* landingpageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = landingpageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +139,10 @@
 				BF41A5181C46461F003B18F2 /* Image */,
 				68DC7A991C40BD2E00FEE2DD /* AppDelegate.h */,
 				68DC7A9A1C40BD2E00FEE2DD /* AppDelegate.m */,
-				BF41A5151C464573003B18F2 /* LandingpageViewController.h */,
-				BF41A5161C464573003B18F2 /* LandingpageViewController.m */,
 				68DC7A9C1C40BD2E00FEE2DD /* ViewController.h */,
 				68DC7A9D1C40BD2E00FEE2DD /* ViewController.m */,
+				BF41A53E1C4653FB003B18F2 /* landingpageViewController.h */,
+				BF41A53F1C4653FB003B18F2 /* landingpageViewController.m */,
 				68DC7A9F1C40BD2E00FEE2DD /* Main.storyboard */,
 				68DC7AA21C40BD2E00FEE2DD /* Assets.xcassets */,
 				68DC7AA41C40BD2E00FEE2DD /* LaunchScreen.storyboard */,
@@ -350,7 +350,7 @@
 				68DC7A9E1C40BD2E00FEE2DD /* ViewController.m in Sources */,
 				68DC7A9B1C40BD2E00FEE2DD /* AppDelegate.m in Sources */,
 				68DC7A981C40BD2E00FEE2DD /* main.m in Sources */,
-				BF41A5171C464573003B18F2 /* LandingpageViewController.m in Sources */,
+				BF41A5401C4653FB003B18F2 /* landingpageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
